@@ -88,4 +88,76 @@
     border-radius: 10px;
   }
   
+  @media only screen and (max-width: 768px) {
+    /* For mobile devices with a maximum screen width of 768px */
+    .choices {
+      display: flex;
+      justify-content: space-evenly;
+      width: 420px;
+      margin-left: 10px;
+    }
+    .choice {
+      margin-bottom: 20px;
+    }
+    .score-board {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    #user-score,
+    #comp-score {
+      font-size: 3rem;
+    }
+    .msg-container {
+      margin-top: 3rem;
+    }
+    #msg {
+      font-size: 1.5rem;
+    }
+    .show_choices {
+      display: flex;
+      justify-content: space-evenly;
+      width: 400px;
+    }
+    .show_choice {
+      width:160px;
+      margin-bottom: 20px;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    /* For mobile devices with a maximum screen width of 480px */
+    h1 {
+      height: 3rem;
+      line-height: 3rem;
+      width:430px ;
+    }
+    .choice {
+      height: 100px;
+      width: 100px;
+    }
+    img {
+      height: 120px;
+      width: 120px;
+    }
+    .score-board {
+      font-size: 1.5rem;
+    }
+    #user-score,
+    #comp-score {
+      font-size: 2rem;
+    }
+    .msg-container {
+      margin-top: 2rem;
+    }
+    #msg {
+      font-size: 1rem;
+    }
+    .show_choices {
+      font-size: 20px;
+    }
+    .show_choice {
+      height: 50px;
+      padding: 5px;
+    }
+  }
   
