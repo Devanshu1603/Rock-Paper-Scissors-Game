@@ -13,4 +13,5 @@ Keep track of wins, losses, and ties
 How to Play:
 
 Clone or download the repository <br>
-Run the game using [game.html,game.css,game.js]
+Run the game using [game.html,game.css,game.js]<br>
+Get at the Game at :- https://devanshu1603.github.io/Rock-Paper-Scissors-Game/
